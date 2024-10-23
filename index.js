@@ -61,4 +61,18 @@ function getRandomMeal() {
 
 // Event listeners
 submit.addEventListener("submit", searchMeal);
-random.addEventListener("click", getRandomMeal);
+random.addEventListener("click", getRandomMeal); 
+
+// toggle mode ----
+const toggleButton = document.getElementById("toggleButton");
+
+toggleButton.addEventListener("click", function() {
+  document.body.classList.toggle("dark-mode");
+
+  if (document.body.classList.contains("dark-mode")) {
+    toggleButton.innerHTML ='<i class="bi bi-moon-stars"></i>';
+  } else {
+    toggleButton.innerHTML ='<i class="bi bi-moon-stars-fill"></i>';
+  }
+});
+
