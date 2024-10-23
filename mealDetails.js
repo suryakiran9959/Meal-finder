@@ -53,7 +53,9 @@ function displayMealDetails(meal) {
         ${meal.strCategory ? `<p><strong>Category:</strong> ${meal.strCategory}</p>` : ""}
         ${meal.strArea ? `<p><strong>Area:</strong> ${meal.strArea}</p>` : ""}
       </div>
-      <button class="back-button" onclick="goBack()">Back to Search</button>
+<button class="back-button" onclick="goBack()">
+    <i class="bi bi-arrow-left-circle-fill"></i>
+</button>
     </div>
   `;
 }

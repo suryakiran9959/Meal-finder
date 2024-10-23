@@ -23,17 +23,15 @@ body {
 }
 
 .header {
-  background: var(--gradient);
-  padding: 20px;
+  background-color:rgb(110, 110, 247);
+  padding:15px;
   text-align: center;
   color: white;
-  font-size: 2rem;
-  font-weight: 600;
-  box-shadow: var(--shadow);
+  font-size: 1rem;
 }
 
 .container {
-  max-width: 900px;
+  max-width: 600px;
   margin: 50px auto;
   padding: 20px;
   text-align: center;
@@ -44,19 +42,19 @@ body {
   background-color: white;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: var(--shadow);
 }
 
 .single-meal img {
-  max-width: 100%;
+  max-width:300px;
   height: auto;
   border-radius: 10px;
   margin-bottom: 20px;
+  box-shadow: 2px 2px;
 }
 
 .single-meal h1 {
   color: var(--primary-color);
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin-bottom: 20px;
 }
 
@@ -78,7 +76,7 @@ body {
 .single-meal p {
   text-align: left;
   margin: 20px 0;
-  line-height: 1.6;
+  line-height: 1.1;
 }
 
 .single-meal-info {
@@ -88,23 +86,16 @@ body {
 .back-button {
   margin-top: 30px;
   padding: 10px 20px;
-  background: var(--button-gradient);
-  color: white;
+  background-color: rgb(58, 179, 58);
   border: none;
   border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.back-button:hover {
-  background-color: #ff4b2b;
 }
 
 .footer {
   text-align: center;
-  background: var(--gradient);
+  background-color:rgb(110, 110, 247);
   color: white;
   padding: 20px;
-  margin-top: 50px;
 }
